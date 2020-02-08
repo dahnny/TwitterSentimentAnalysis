@@ -1,12 +1,12 @@
 import twitter
 import csv
 import time
-from sentiment_analysis import PreProcessTweets
+from preprocesstweets import PreProcessTweets
 
-token = 'Bb5icqwCig3hEkNKvOkmIFOea'
-token_secret = 'fbjhyc5gUiBeIDI8hSXTgGVjkw7gtgz17OE1liQV6wMZcaMsg9'
-access_token = '1413417127-UX39Te8YsO6Ni2GlK6LYHSwc0EH4iXbNeeqHw06'
-access_secret = 'sNVRBk7LQvLDzPudXSrYC2yYBYHaZSmigUYq3ZBKtwPF5'
+token = 'XXXXXXXXXXXXXXXXXXX'
+token_secret = 'XXXXXXXXXXXXXXXXXXXXXcaMsg9'
+access_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXeqHw06'
+access_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXBKtwPF5'
 
 twitter_api = twitter.Api(consumer_key=token, consumer_secret=token_secret,
                           access_token_key=access_token,access_token_secret=access_secret)
